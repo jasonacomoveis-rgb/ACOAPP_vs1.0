@@ -5,20 +5,26 @@
   <title>Meu App</title>
 
   <!-- Ícone que aparecerá na tela inicial -->
-  <link rel="icon" href="icon.png" sizes="192x192">
-  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="icon" href="icone.png" sizes="192x192">
+  <link rel="apple-touch-icon" href="icone.png">
 
-  <!-- Manifest (opcional, ajuda no Android) -->
+  <!-- Manifest (ajuda no Android e iOS) -->
   <link rel="manifest" href="manifest.json">
 
   <!-- Redirecionamento via JavaScript (2 segundos) -->
   <script>
     setTimeout(function() {
       window.location.href = "https://script.google.com/macros/s/AKfycbzZ6HLGepS42hE8Fp5azapwmyWii2QuSK9APkfbxM2pUcOOeRIoTNmOxJECc-qbSbOrkw/exec";
-    }, 2000); // 2 segundos para carregar o ícone
+    }, 2000); // 2 segundos para registrar o ícone
   </script>
 </head>
 <body>
-  <p>Adicione este site à sua tela inicial ou aguarde...</p>
+  <h2>Bem-vindo ao Meu App</h2>
+  <p>Adicione este site à sua tela inicial ou aguarde o redirecionamento...</p>
+  <p>
+    <a href="https://script.google.com/macros/s/AKfycbzZ6HLGepS42hE8Fp5azapwmyWii2QuSK9APkfbxM2pUcOOeRIoTNmOxJECc-qbSbOrkw/exec">
+      Abrir App Agora
+    </a>
+  </p>
 </body>
 </html>
